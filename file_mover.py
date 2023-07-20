@@ -16,12 +16,7 @@ import pandas as pd
 
 #At runtime set working directory to the place where the script lives
 working_dir = sys.path[0]+'/' 
-
-working_dir="/Users/esforsythe/Documents/Work/Bioinformatics/ERC_networks/Analysis/ERC_methods/ERC_methods_tests"
-
 os.chdir(working_dir)
-
-
 print(working_dir)
 
 
@@ -41,11 +36,6 @@ args = parser.parse_args()
 source_dir=args.source_dir
 list_file=args.list_file
 dest_dir=args.dest_dir
-
-
-#source_dir="/Users/esforsythe/Documents/Work/Bioinformatics/ERC_networks/Analysis/ERC_methods/ERC_methods_tests/Source/"
-#list_file="files2move.csv"
-#dest_dir="/Users/esforsythe/Documents/Work/Bioinformatics/ERC_networks/Analysis/ERC_methods/ERC_methods_tests/Destination/"
 
 
 # Open the file in read mode and read the lines
