@@ -1,18 +1,14 @@
 #!/usr/bin/env python3
 
+#Example usage:
+#python file_mover.py -s /Users/esforsythe/Documents/Work/Bioinformatics/ERC_networks/Analysis/ERC_methods/Cleaned_proteomes_pool/ -l test01.csv -d /Users/esforsythe/Documents/Work/Bioinformatics/ERC_networks/Analysis/ERC_methods/Randomized_datasets/test01/
+
 #Storebought modules
 import os
-import re
 import sys
 import glob
-import time
-import math
 import shutil
 import argparse
-import itertools
-import subprocess
-import numpy as np
-import pandas as pd
 
 #At runtime set working directory to the place where the script lives
 working_dir = sys.path[0]+'/' 
